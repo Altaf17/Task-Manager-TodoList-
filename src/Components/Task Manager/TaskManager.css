@@ -2,11 +2,13 @@ body {
     background-color: var(--color-primary);
     overflow: hidden;
     /* avoid min-height to prevent glitches on css animation */
-  }
-  form.form input {
+}
+
+form.form input {
     width: 73%;
-  }
-  .task {
+}
+
+.task {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -17,14 +19,15 @@ body {
     border-radius: 5px;
     box-shadow: var(--box-shadow);
     overflow: hidden;
-  }
-  .complete {
+}
+
+.complete {
     position: relative;
     background-color: #fff;
     border-left: 5px solid orangered;
-  }
-  
-  .complete::after {
+}
+
+.complete::after {
     content: "Completed";
     position: absolute;
     right: 1rem;
@@ -33,5 +36,4 @@ body {
     color: #fff;
     padding: 2px;
     border-radius: 3px;
-  }
-  
+}
